@@ -21,16 +21,22 @@ TickToDo is a full-stack ToDo List application built using the MERN (MongoDB, Ex
    ```bash
    git clone https://github.com/Mxnn2309/TickToDo.git
    cd TickToDo
+   ```
 2. **Install Dependencies:**
    ```cmd
    cd ./api/
    npm install
-
-   cd ../client/
+   ```
+   ```cmd
+   cd ./client/
    npm install
+   ```
 3. **Set up MongoDB:**
    ```cmd
    node ./api/server.js
+   ```
 4. **Run the Application**
    ```cmd
+   cd ./client/
    npm start
+   ```
